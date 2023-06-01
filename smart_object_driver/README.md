@@ -1,7 +1,7 @@
 ## Description
 This application contains drivers and a control software for the device called Smart-Object.
 Tcp-connection -> Ip address and port number on the wifi it is connected on.
-The configuration string has always a length of up to 8 chars.
+The configuration string has always a length of up to 12 chars.
 Colors mapping: "1" -> red, "2" -> green, "3" -> blue
 
 
