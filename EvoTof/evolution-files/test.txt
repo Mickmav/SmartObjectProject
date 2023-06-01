@@ -1,0 +1,1 @@
+./NEAT-evolution /home/prochala/EvoColor/evolution-files/experiments-folder/sequence-1.argos /home/prochala/EvoColor/evolution-files/params/evocolorParamsOneByOne100k.ne /home/prochala/EvoColor/evolution-files/startgen/evocolorstartgenesRM300

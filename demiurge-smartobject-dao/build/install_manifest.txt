@@ -1,0 +1,3 @@
+/usr/local/include/argos3/demiurge/smartobject-dao/SmartObjectDAO.h
+/usr/local/include/argos3/demiurge/smartobject-dao/SOReferenceModel1Dot1.h
+/usr/local/lib/argos3/libargos3_demiurge_smartobject_dao.so

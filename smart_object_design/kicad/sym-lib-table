@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/libs/kicad_loader/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name 629)(type Legacy)(uri ${KIPRJMOD}/libs/kicad_libs/keystone_629/eec.lib)(options "")(descr ""))
+)

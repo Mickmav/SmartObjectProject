@@ -1,0 +1,14 @@
+/home/piotrek/toffi/demiurge-smartobject-dao/build/CMakeFiles/install/strip.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/CMakeFiles/install/local.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/CMakeFiles/install.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/CMakeFiles/list_install_components.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/CMakeFiles/rebuild_cache.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/CMakeFiles/edit_cache.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/install/strip.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/install/local.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/install.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/list_install_components.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/rebuild_cache.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/edit_cache.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/argos3_demiurge_smartobject_dao.dir
+/home/piotrek/toffi/demiurge-smartobject-dao/build/src/CMakeFiles/argos3_demiurge_smartobject_dao_autogen.dir

@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ADXL345BCCZ-RL7
+D ADXL345BCCZ-RL7 Analog Devices, 3-Axis Accelerometer, I2C, SPI, 14-Pin LGA
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf
+$ENDCMP
+#
+$CMP TCS34725FN
+D Colour Light to Digital Converter DFN6 ams TCS34725FN Ambient Light Sensor Unit Surface Mount 6-Pin DFN
+K
+F https://ams.com/jpn/content/download/319364/1117183/file/TCS3472_Datasheet_EN_v2.pdf
+$ENDCMP
+#
+$CMP TLC5947DAPR
+D 24-Channel, 12-Bit PWM LED Driver with Internal Oscillator
+K
+F https://www.arrow.com/en/products/tlc5947dapr/texas-instruments
+$ENDCMP
+#
+$CMP LP5024RSMR
+D 24-Channel I2C Constant-Current RGB LED Driver
+K
+F http://www.ti.com/lit/gpn/lp5024
+$ENDCMP
+#
+$CMP 150066M173000
+D WL-SFCW Full-color Chip LED waterclear
+K
+F https://katalog.we-online.de/led/datasheet/150066M173000.pdf
+$ENDCMP
+#
+$CMP LMS1585AISX-3.3_NO
+D 5A Fixed / Adjustable Output Linear Regulators / LDO
+K
+F http://www.ti.com/lit/gpn/LMS1585A
+$ENDCMP
+#
+#End Doc Library

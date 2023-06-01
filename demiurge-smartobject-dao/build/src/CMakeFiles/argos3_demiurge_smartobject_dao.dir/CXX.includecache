@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotrek/toffi/demiurge-smartobject-dao/src/SOReferenceModel1Dot1.cpp
+SOReferenceModel1Dot1.h
+/home/piotrek/toffi/demiurge-smartobject-dao/src/SOReferenceModel1Dot1.h
+
+/home/piotrek/toffi/demiurge-smartobject-dao/src/SOReferenceModel1Dot1.h
+SmartObjectDAO.h
+/home/piotrek/toffi/demiurge-smartobject-dao/src/SmartObjectDAO.h
+
+/home/piotrek/toffi/demiurge-smartobject-dao/src/SmartObjectDAO.h
+vector
+-
+deque
+-
+argos3/core/utility/math/rng.h
+-
+argos3/core/utility/math/vector2.h
+-
+argos3/core/utility/logging/argos_log.h
+-
+argos3/plugins/robots/smart-object/control_interface/ci_smartobject_accelerometer_sensor.h
+-
+argos3/plugins/robots/smart-object/control_interface/ci_smartobject_ground_sensor.h
+-
+argos3/plugins/robots/smart-object/control_interface/ci_smartobject_leds_actuator.h
+-
+

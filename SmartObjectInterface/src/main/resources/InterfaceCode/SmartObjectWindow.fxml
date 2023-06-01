@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="359.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfaceCode.Controller">
+    <Button layoutX="115.0" layoutY="72.0" mnemonicParsing="false" onAction="#SetColorWindow" prefHeight="25.0" prefWidth="107.0" text="Set Color" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="72.0" />
+    <Button layoutX="325.0" layoutY="176.0" mnemonicParsing="false" onAction="#SetMissionWindow" prefHeight="25.0" prefWidth="121.0" text="Set Mission" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="176.0" />
+    <Button layoutX="236.0" layoutY="126.0" mnemonicParsing="false" onAction="#SendMessage" prefHeight="25.0" prefWidth="85.0" text="Send message" AnchorPane.bottomAnchor="19.0" AnchorPane.rightAnchor="25.0" />
+    <Button layoutX="122.0" layoutY="177.0" mnemonicParsing="false" onAction="#AddToGroupWindow" prefHeight="25.0" prefWidth="107.0" text="Add to group" AnchorPane.leftAnchor="122.0" AnchorPane.topAnchor="177.0" />
+    <Button layoutX="325.0" layoutY="126.0" mnemonicParsing="false" onAction="#SetBrightness" prefHeight="25.0" prefWidth="121.0" text="Set Brightness" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="126.0" />
+    <Button layoutX="325.0" layoutY="72.0" mnemonicParsing="false" onAction="#SetConfigWindow" prefHeight="25.0" prefWidth="121.0" text="Set Configuration" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="72.0" />
+    <Button layoutX="43.0" layoutY="229.0" mnemonicParsing="false" onAction="#SensorCalibrationWhite" prefHeight="25.0" prefWidth="225.0" text="Calibrate the ground sensor on white" />
+    <Button layoutX="300.0" layoutY="229.0" mnemonicParsing="false" onAction="#SensorCalibrationWhiteBlack" prefHeight="25.0" prefWidth="225.0" text="Calibrate the ground sensor on black" />
+    <Button layoutX="43.0" layoutY="270.0" mnemonicParsing="false" onAction="#SensorCalibrationAccel" prefHeight="25.0" prefWidth="225.0" text="Calibrate the accelerometer" AnchorPane.leftAnchor="43.0" AnchorPane.topAnchor="270.0" />
+
+
+    <TextField id="BrightnessMessage" layoutX="122.0" layoutY="126.0" prefHeight="25.0" prefWidth="172.0" text="Brightness" AnchorPane.leftAnchor="122.0" AnchorPane.rightAnchor="163.0" AnchorPane.topAnchor="126.0" />
+    <TextField id="Message" layoutX="35.0" layoutY="126.0" prefHeight="25.0" prefWidth="172.0" text="Message" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="139.0" />
+
+    <Text layoutX="35.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smart Object  : " wrappingWidth="85.0" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="35.0">
+        <font>
+            <Font size="12.0" />
+        </font>
+    </Text>
+    <Text id="TextId" layoutX="122.0" layoutY="47.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="id" textAlignment="CENTER" wrappingWidth="93.0" AnchorPane.leftAnchor="122.0" AnchorPane.topAnchor="35.0">
+        <font>
+            <Font size="12.0" />
+        </font>
+    </Text>
+   <Text id="TextColor" layoutX="35.0" layoutY="88.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="Color" textAlignment="CENTER" wrappingWidth="77.0" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="76.0">
+      <font>
+         <Font size="12.0" />
+      </font>
+   </Text>
+   <Text id="TextGroup" layoutX="31.0" layoutY="193.94921875" strokeType="OUTSIDE" strokeWidth="0.0" text="Group " textAlignment="CENTER" wrappingWidth="77.0" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="181.0">
+      <font>
+         <Font size="12.0" />
+      </font>
+   </Text>
+   <Text id="TextMission" layoutX="242.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mission" textAlignment="CENTER" wrappingWidth="77.0" AnchorPane.rightAnchor="138.0" AnchorPane.topAnchor="180.0">
+      <font>
+         <Font size="12.0" />
+      </font>
+   </Text>
+   <Text id="TextBrightness" layoutX="35.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brightness" textAlignment="CENTER" wrappingWidth="77.0" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="130.0">
+      <font>
+         <Font size="12.0" />
+      </font>
+   </Text>
+  <Text id="TextConfig" layoutX="242.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Config:" textAlignment="CENTER" wrappingWidth="77.0" AnchorPane.rightAnchor="138.0" AnchorPane.topAnchor="75.0">
+      <font>
+         <Font size="12.0" />
+      </font>
+   </Text>
+
+
+</AnchorPane>

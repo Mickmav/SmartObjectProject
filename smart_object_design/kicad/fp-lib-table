@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name keystone_629)(type KiCad)(uri ${KIPRJMOD}/libs/kicad_libs/keystone_629/eec.pretty)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/libs/kicad_loader/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name keystone_637)(type KiCad)(uri ${KIPRJMOD}/libs/kicad_libs/keystone_637/eec.pretty)(options "")(descr ""))
+  (lib (name PCB_logos_pretty)(type KiCad)(uri ${KIPRJMOD}/PCB_logos_pretty)(options "")(descr ""))
+)
