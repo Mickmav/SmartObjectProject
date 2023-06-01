@@ -36,7 +36,7 @@ To launch a mission, follow these steps:
 2. Connect to the wi-fi the device is connected on.
 3. Send "1" over the tcp-connection, to validate the connection with the device.
 4. Send "6" over the tcp-connection over the tcp-connection.
-5. For the white, send "100000000000". For the black, send "200000000000".
+5. For the white, send "100000000000", for the black, send "200000000000" on the corresponding ground color.
 
 
 ### Calibrate the accelerometer.
