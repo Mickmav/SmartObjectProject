@@ -6,7 +6,7 @@ Colors mapping: "1" -> red, "2" -> green, "3" -> blue
 
 
 ### Test the display color by the device.
-1. Connect to the wi-fi network called "esp32" (no password required).
+1. Connect to the same wifi as the smart object.
 2. Send "1" over the tcp-connection, to validate the connection with the device.
 3. Send "4" over the tcp-connection.
 4. Send the configuration.
@@ -21,13 +21,14 @@ Example: "125511111111" -> red color on all LEDs with a full brightness.
 ### Launch a mission.
 The device is configured for 3 different missions. 
 To launch a mission, follow these steps:
-1. Connect to the wi-fi the device is connected on.
+1. Connect to the same wifi as the smart object.
 2. Send "1" over the tcp-connection, to validate the connection with the device.
 3. Send "5" over the tcp-connection.
-4. -To launch the mission 1: Send "1x" where x is a char representing the color to initially display.
-   -To launch the mission 2: Send "2".
-   -To launch the mission 3: Send "3".
-   -To stop the mission in progress: Send "4".
+4. -To launch the mission 1: Send "1x0000000000" where x is a char representing the color to initially display.
+   -To launch the mission 2: Send "200000000000".
+   -To launch the mission 3: Send "300000000000".
+   -To launch the mission example : send "800000000000".
+   -To stop the mission in progress: Send "900000000000".
 
 
 ### Calibrate the ground sensor.
@@ -35,7 +36,7 @@ To launch a mission, follow these steps:
 2. Connect to the wi-fi the device is connected on.
 3. Send "1" over the tcp-connection, to validate the connection with the device.
 4. Send "6" over the tcp-connection over the tcp-connection.
-5. For the white, send "1". For the black, send "2".
+5. For the white, send "100000000000". For the black, send "200000000000".
 
 
 ### Calibrate the accelerometer.
@@ -43,7 +44,7 @@ To launch a mission, follow these steps:
 2. Connect to the wi-fi the device is connected on.
 3. Send "1" over the tcp-connection, to validate the connection with the device.
 4. Send "6" over the tcp-connection.
-5. Send "3" over the tcp-connection to launch the accelerometer calibration.
+5. Send "300000000000" over the tcp-connection to launch the accelerometer calibration.
 
 ### Connect to your wifi
 Go to the wifi.h file and use fill the EXAMPLE_ESP_WIFI_SSID  with your wifi name,
