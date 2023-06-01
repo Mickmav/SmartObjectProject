@@ -55,8 +55,9 @@ and send to the server.
 
 
 ## Build and Flash
-
 To build and flash the project to the board, first set up ESP-IDF environment (instructions for Linux taken from [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)) (_Note: if you have already set up your environment and just need a refresher to know how to build and flash your code, skip to the end of the section_):
+Note that the new versions of esp-idf might change, therefore check that your esp-idf version is compatible with version 4.4.3.
+
 1. Download prerequisites:
 ```
 sudo apt install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
