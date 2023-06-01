@@ -17,13 +17,8 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-
-//#define EXAMPLE_ESP_WIFI_SSID      "Proximus-Home-412118"
-//#define EXAMPLE_ESP_WIFI_PASS      "hrd4c3hubp939s3y"
-//#define EXAMPLE_ESP_WIFI_SSID      "YourWifiName"
-//#define EXAMPLE_ESP_WIFI_PASS      "YourWifiPass"
-#define EXAMPLE_ESP_WIFI_SSID      "marconi"
-#define EXAMPLE_ESP_WIFI_PASS      "iridi4-net"
+#define EXAMPLE_ESP_WIFI_SSID      "YourWifiName"
+#define EXAMPLE_ESP_WIFI_PASS      "YourWifiPass"
 #define MAX_LINE_LENGTH            100
 #define EXAMPLE_ESP_WIFI_CHANNEL   1
 #define EXAMPLE_MAX_STA_CONN       4
